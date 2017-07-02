@@ -3,7 +3,7 @@ var urls = require("./urls");
 module.exports = {
 
     // Kullanıcının oturumunun açık olup olmadığını kontrol eden method
-    checkUser: function(req, res) {
+    checkUser: function(req, res, next) {
         if (req.isAuthenticated())
             next();
         else

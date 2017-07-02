@@ -8,6 +8,9 @@ module.exports = {
     user_bye: '/user/bye',
     user_membership_expired: '/user/expired',
     user_activation: '/user/activation',
-    user_status: '/user/status'
+    user_status: '/user/status',
+
+    athlete_all: '/athletes',
+    athlete_new: '/athlete/new'
 
 }
